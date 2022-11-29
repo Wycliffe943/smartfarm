@@ -1,5 +1,5 @@
 <?php 
- $conn = mysqli_connect('localhost', 'wycliffe', 'Rih@nna3', 'smart_farm');
+ $conn = mysqli_connect();
 
  //check connection
  if(!$conn){
@@ -10,10 +10,7 @@
  // Alternative way to connect
 /*
 
-define('DB_HOST', 'localhost');
-define('DB_USER', 'wycliffe');
-define('DB_PASS', 'Rih@nna3');
-define('DB_NAME', 'php_dev');
+
 
 
 create connection
